@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dorsa&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="site-header">
+      <div class="header-identity">
+        <img src="/images/portrait.jpg" alt="Mathieu Hélie" class="portrait">
+        <div class="header-text">
+          <h1 class="name">Mathieu Hélie</h1>
+          <p class="tagline">Computer Scientist&nbsp;·&nbsp;Economist&nbsp;·&nbsp;Urbanist</p>
+          <div class="contact-links">
+            <a href="mailto:mthl@mthl.info">mthl@mthl.info</a>
+            <span class="sep">·</span>
+            <a href="https://github.com/mathieuhelie">GitHub</a>
+            <span class="sep">·</span>
+            <a href="https://www.linkedin.com/in/mhelie">LinkedIn</a>
+            <span class="sep">·</span>
+            <a href="http://emergenturbanism.com">Emergent Urbanism</a>
+            <span class="sep">·</span>
+            <span>Montreal, Canada</span>
+          </div>
+        </div>
+      </div>
+
+      <nav class="variant-nav">
+        <a href="/" class="{{ 'active' if variant == 'full' }}">Full CV</a>
+        <a href="/cv-tech" class="{{ 'active' if variant == 'tech' }}">Tech</a>
+        <a href="/cv-urban" class="{{ 'active' if variant == 'urban' }}">Urbanism</a>
+        <a href="/cv-linkedin" class="{{ 'active' if variant == 'linkedin' }}">LinkedIn</a>
+        <button class="print-btn" onclick="window.print()">Download PDF</button>
+      </nav>
+    </header>
+
+    <main class="cv-content">
+      {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+      <a href="http://emergenturbanism.com">Emergent Urbanism</a>
+      <a href="https://github.com/mathieuhelie">GitHub</a>
+      <a href="https://www.linkedin.com/in/mhelie">LinkedIn</a>
+      <a href="https://twitter.com/mathieuhelie">Twitter</a>
+      <a href="https://www.slideshare.net/mhelie">SlideShare</a>
+    </footer>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "mthl-info",
+  "version": "1.0.0",
+  "description": "Personal site and CV generator for Mathieu Hélie",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^5.0.0"
+  }
+}
