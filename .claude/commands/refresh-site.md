@@ -5,74 +5,97 @@ Refresh the mthl.info personal site by synthesizing all available sources and re
 1. **Read source documents** — Read every file in the `content/` directory. These are the user's primary source of truth: CV documents, work experience notes, project descriptions, client profiles, and anything else dropped there.
 
 2. **Search for new public information** — Run web searches to find updates since the last refresh:
-   - Search: `"Mathieu Hélie" site:thenatureofcities.com` — find any new articles
-   - Search: `"Mathieu Hélie" thenatureofcities.com` — catch any not indexed under the exact slug
-   - Search: `Mathieu Hélie Appnovation OR Serti` — look for any new public announcements
+   - Fetch: `https://www.thenatureofcities.com/TNOC/?s=mathieu+helie` — the most reliable source for new articles
+   - Search: `"Mathieu Hélie" site:thenatureofcities.com` — cross-check
    - Compare results against the known article list below and note any additions
 
-3. **Synthesize** — Combine content/ documents + search findings + the known baseline below into a coherent, up-to-date professional narrative.
+3. **Synthesize** — Combine content/ documents + search findings + the known baseline below into a coherent, up-to-date professional narrative. The master history lives in `src/index.md`. Variant pages are filtered views of the same history — same voice, same language, same first-person perspective. They do not adopt a different tone or target a different "audience voice."
 
-4. **Regenerate the four CV pages**:
-   - `src/index.md` — Full chronological CV, maximum detail. Include every role, every article, education, all writing. This is the SEO-optimized home page.
-   - `src/cv-tech.md` — Tech/consulting focus. Leads with Drupal/PHP/JS experience, platform architecture, specific projects. Urbanism appears only as "other interests."
-   - `src/cv-urban.md` — Urbanism/complexity science focus. Leads with TNOC articles, Emergent Urbanism, thesis, BIMBY.fr. Tech career compressed to one paragraph.
-   - `src/cv-linkedin.md` — LinkedIn format: About, Experience, Education, Skills, Publications sections. Dense, formatted for copy-paste into LinkedIn.
+4. **Regenerate the three public CV pages**:
+   - `src/index.md` — Full chronological CV, maximum detail. Every role, every article, all education, all writing. SEO-optimized home page.
+   - `src/cv-tech.md` — Filter to tech/consulting content. Lead with platform architecture and dev roles. Urbanism compressed to one brief mention. Same voice as index.md.
+   - `src/cv-urban.md` — Filter to urbanism/complexity science content. Lead with TNOC articles and Emergent Urbanism. Tech career compressed to one brief paragraph. Same voice as index.md.
 
-5. **Keep the front matter** — Every page must keep its YAML front matter (layout, title, description, variant). Update `title` and `description` if the content warrants it.
+5. **Update `src/cv-linkedin.md` separately** — This is a working reference document for updating LinkedIn manually. It is NOT published in the site navigation. Keep it structured as: About, Experience, Education, Skills, Publications. It should reflect the same facts as index.md but formatted for copy-paste into LinkedIn.
 
-6. **Build** — Run `npm run build` and confirm it completes without errors.
+6. **Keep the front matter** — Every page must keep its YAML front matter (layout, title, description, variant). Update `title` and `description` if the content warrants it.
 
-7. **Commit and push** — Stage all changed files, commit with a descriptive message, and push to the current branch.
+7. **Build** — Run `npm run build` and confirm it completes without errors.
+
+8. **Do not push or commit** — The user manages commits and pushes themselves.
+
+---
+
+## Content rules
+
+- **No hallucination** — Do not invent details not present in source documents. If a thesis title, date, or project detail isn't in content/ or the known baseline, omit it rather than invent it.
+- **No fabricated Medium articles** — Only include Medium articles explicitly confirmed (see baseline below). Do not add articles not listed.
+- **No roundtable contributions** — Do not list minor TNOC contributions (book recommendations, roundtables) as publications.
+- **Thesis description** — Describe the thesis content without inventing or asserting a specific title. Use: "Examined how emergent phenomena, complex adaptive systems, and fractal geometry explain the structure and growth of traditional and organic urban forms, in contrast to top-down planned cities."
+- **"Working remotely"** — Do not add this to the intro. Location is Montreal, Canada — nothing more.
+- **Consistent voice** — All pages use the same first-person professional voice. Variant pages filter content, not tone.
 
 ---
 
 ## Known Baseline
 
-### Career (roles)
-- **Appnovation Technologies** — Technology Senior Associate (current; details in content/ if available)
-- **Serti** — Senior Drupal Developer & Consultant (details in content/ if available)
-- **Agence Webdiffusion** — Co-Founder & Web Architect, 2013+
-- **Floe Design + Technologies** — Senior Drupal Developer / Technical Lead, 2009+
-- **Freelance** — web development, 2009+
+### Career (reverse chronological)
+
+- **Appnovation Technologies** — Senior Associate Technology, April 2020–present. Sub-roles (not all for Pfizer):
+  - Tech Lead — Pfizer Internal Platform, 2025–present (team of 5–8, LiteLLM, Vue.js, Laravel)
+  - Pfizer Platform Integration Consultant, 2023–2024 (cancer PWA, PfizerForAll.com, Japan COVID portal, Angular/Ionic/Drupal/Laravel/Vue.js)
+  - Cloud & Web Application Architect — Pfizer, 2023 (serverless AWS portal, Remix/React/TypeScript/PostgreSQL/AWS Lambda)
+  - Platform Architect, Decoupled Web, 2022 (federated search, headless CMS, Drupal/Node.js/Docker/GCP/Contentful/Next.js/Svelte)
+  - Tech Lead — Platform Operations, 2021 (containerized AWS hosting, Drupal/Docker/AWS OpenShift)
+  - JavaScript Integration Lead, 2020 (drag-and-drop CMS, GatsbyJS/GraphQL/React/Firebase/GCP)
+- **Self Employed** — Consultant Developer, June 2019–March 2020 (Mediawiki, PHP, Svelte, Platform.sh)
+- **SERTI (Cogeco Inc.)** — Senior Drupal Developer Consultant, February 2018–May 2019 (Drupal 8/Symfony/PHP/React/Redux/PHPUnit)
+- **Appnovation Technologies** — Senior Developer, December 2016–February 2018 (Canadian Red Cross, Carrefour, SWIFT, Agropur; Drupal 8/Symfony/PHP)
+- **Floe Design + Technologies** — Drupal Technical Lead, March 2015–November 2016 (Digital.NYC/StartHubBoston; Drupal 7&8/PHP/ElasticSearch)
+- **Agence Webdiffusion** — Co-Founder & Web Architect, June 2013–May 2018 (side venture; Drupal 7/Aegir)
+- **dbn.ca** — Lead Web Developer, 2010–2013 (Drupal 6&7/PHP/MySQL)
 
 ### Education
-- Institut d'Urbanisme de Paris / Université Paris I Panthéon-Sorbonne — Master's, Urban Planning (thesis on morphology of emergence)
-- Concordia University — B.Sc., Economics and Computer Science
+
+- Institut d'Urbanisme de Paris / Université Paris I Panthéon-Sorbonne — Master's, Urban Planning, 2008
+- Concordia University — B.A., Economics and Computer Science, 2006 (Montreal)
+- Champlain Regional College — DEC, Computer Science, 2002 (Saint-Lambert)
+- SAJE — Certificate in Sales Consulting / Entrepreneurship, 2013–2014
 
 ### Known articles at The Nature of Cities
-These are confirmed. Any new ones found in searches should be added:
 
-1. A Fractal Solution to Regional Complexity and Governance — Jan 2020 — https://www.thenatureofcities.com/TNOC/2020/01/23/a-fractal-solution-to-regional-complexity-and-governance/
-2. Neighborhoods that Change in Non-linear Ways — Jul 2019 — https://www.thenatureofcities.com/TNOC/2019/07/10/neighborhoods-that-change-in-non-linear-ways-urban-planning-for-succession/
-3. Neural Networks — A New Model for 'The Kind of Problem a City Is' — Apr 2018 — https://www.thenatureofcities.com/2018/04/29/neural-networks-new-model-kind-problem-city/
-4. The Effect of Iteration on Urban Form, Part II — Jun 2017 — https://www.thenatureofcities.com/2017/06/28/effect-iteration-urban-form-part-ii-iteration-ecosystem/
-5. The Effect of Iteration on Urban Form, Part I — Jun 2017 — https://www.thenatureofcities.com/2017/06/25/effect-iteration-urban-form-part/
-6. Uses and Abuses of Preservation — Nov 2016 — https://www.thenatureofcities.com/2016/11/13/uses-and-abuses-of-preservation/
-7. Common Threads: Jane Jacobs and Elinor Ostrom — May 2016 — https://www.thenatureofcities.com/TNOC/2016/05/28/common-threads-connections-among-the-ideas-of-jane-jacobs-and-elinor-ostrom-and-their-relevance-to-urban-socio-ecology/
-8. Neighborhoods and Urban Fractals — Oct 2012 — https://www.thenatureofcities.com/2012/10/17/neighborhoods-and-urban-fractals-the-building-blocks-of-sustainable-cities/
+1. Explaining the Housing Crisis with the Theory of Constraints — Apr 2023 — https://www.thenatureofcities.com/TNOC/2023/04/11/explaining-the-housing-crisis-with-the-theory-of-constraints/
+2. A Fractal Solution to Regional Complexity and Governance — Jan 2020 — https://www.thenatureofcities.com/TNOC/2020/01/23/a-fractal-solution-to-regional-complexity-and-governance/
+3. Neighborhoods that Change in Non-linear Ways — Jul 2019 — https://www.thenatureofcities.com/TNOC/2019/07/10/neighborhoods-that-change-in-non-linear-ways-urban-planning-for-succession/
+4. Neural Networks — A New Model for 'The Kind of Problem a City Is' — Apr 2018 — https://www.thenatureofcities.com/2018/04/29/neural-networks-new-model-kind-problem-city/
+5. The Effect of Iteration on Urban Form, Part II — Jun 2017 — https://www.thenatureofcities.com/2017/06/28/effect-iteration-urban-form-part-ii-iteration-ecosystem/
+6. The Effect of Iteration on Urban Form, Part I — Jun 2017 — https://www.thenatureofcities.com/2017/06/25/effect-iteration-urban-form-part/
+7. Uses and Abuses of Preservation — Nov 2016 — https://www.thenatureofcities.com/2016/11/13/uses-and-abuses-of-preservation/
+8. Common Threads: Jane Jacobs and Elinor Ostrom — May 2016 — https://www.thenatureofcities.com/TNOC/2016/05/28/common-threads-connections-among-the-ideas-of-jane-jacobs-and-elinor-ostrom-and-their-relevance-to-urban-socio-ecology/
+9. Neighborhoods and Urban Fractals — Oct 2012 — https://www.thenatureofcities.com/2012/10/17/neighborhoods-and-urban-fractals-the-building-blocks-of-sustainable-cities/
 
 ### Other writing
+
 - Emergent Urbanism blog — http://emergenturbanism.com (since 2007)
-- Medium: "Lean Drupal Development", "Peter Thiel's Zero to One"
+- Medium: "Lean Drupal Development" — https://medium.com/@mathieuhelie/lean-drupal-development-finish-your-drupal-projects-in-half-the-time-a98eaaede088
 - SlideShare: https://www.slideshare.net/mhelie
-- TNOC roundtable "Read this!" Dec 2016 (book rec: Delirious New York by Rem Koolhaas)
 
 ### Links
+
 - GitHub: https://github.com/mathieuhelie
 - LinkedIn: https://www.linkedin.com/in/mhelie
-- Twitter: https://twitter.com/mathieuhelie
+- Twitter/X: https://twitter.com/mathieuhelie
 - Email: mthl@mthl.info
 
 ---
 
-## Style Guidelines
+## Style guidelines
 
-- **Tone**: Professional but personal. Not a stiff résumé. Conversational where appropriate.
-- **Headers**: Use `##` for sections, `###` for roles/articles, `####` for org/date metadata lines
-- **Dates on h4**: Use italics-in-em style: e.g., `#### Montreal, Canada | 2013–2018`
-- **Links**: All TNOC article titles should be hyperlinks to their canonical URLs
-- **No placeholders**: Don't write `[date TBD]` — omit dates rather than guess. Content/ docs will have more detail.
-- **index.md length**: Aim for comprehensive. More detail is better for SEO. 600–1200 words of body content.
-- **cv-tech.md length**: Concise. 300–500 words. Employer/recruiter audience.
-- **cv-urban.md length**: Article-heavy. Lead with writing. 400–600 words.
-- **cv-linkedin.md length**: Structured for copy-paste. 300–500 words. Use `---` dividers between experiences.
+- **Headers**: `##` for sections, `###` for roles/articles, `####` for org/date metadata lines
+- **Dates**: `#### Montreal, Canada | 2013–2018`
+- **Links**: All TNOC article titles must be hyperlinks to their canonical URLs
+- **No placeholders**: Omit dates rather than guess. content/ docs are authoritative.
+- **index.md**: Comprehensive. 800–1500 words of body content.
+- **cv-tech.md**: Concise but complete on tech. 400–700 words.
+- **cv-urban.md**: Article-heavy, thesis-forward. 400–600 words.
+- **cv-linkedin.md**: Structured for copy-paste. `---` dividers between experiences.

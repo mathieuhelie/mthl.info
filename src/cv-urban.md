@@ -1,7 +1,7 @@
 ---
 layout: layouts/cv.njk
 title: "Mathieu Hélie — Urbanism & Complexity Science"
-description: "Complexity scientist and urbanist exploring emergence, fractal geometry, and self-organization in cities. Writer at The Nature of Cities."
+description: "Complexity scientist and urbanist exploring emergence, fractal geometry, and self-organization in cities. Writer at The Nature of Cities, author of Emergent Urbanism."
 variant: urban
 ---
 
@@ -17,14 +17,15 @@ Urban morphology · Fractal geometry in cities · Complex adaptive systems · Em
 
 [The Nature of Cities](https://www.thenatureofcities.com) is a platform for scholars, practitioners, and advocates working at the interface of urbanism, ecology, and design.
 
-1. [A Fractal Solution to Regional Complexity and Governance](https://www.thenatureofcities.com/TNOC/2020/01/23/a-fractal-solution-to-regional-complexity-and-governance/) — January 2020
-2. [Neighborhoods that Change in Non-linear Ways — Urban Planning for Succession](https://www.thenatureofcities.com/TNOC/2019/07/10/neighborhoods-that-change-in-non-linear-ways-urban-planning-for-succession/) — July 2019
-3. [Neural Networks — A New Model for 'The Kind of Problem a City Is'](https://www.thenatureofcities.com/2018/04/29/neural-networks-new-model-kind-problem-city/) — April 2018
-4. [The Effect of Iteration on Urban Form, Part II: Iteration in an Ecosystem](https://www.thenatureofcities.com/2017/06/28/effect-iteration-urban-form-part-ii-iteration-ecosystem/) — June 2017
-5. [The Effect of Iteration on Urban Form, Part I: Fractals and the Creation of Complexity](https://www.thenatureofcities.com/2017/06/25/effect-iteration-urban-form-part/) — June 2017
-6. [Uses and Abuses of Preservation](https://www.thenatureofcities.com/2016/11/13/uses-and-abuses-of-preservation/) — November 2016
-7. [Common Threads: Connections Among the Ideas of Jane Jacobs and Elinor Ostrom, and Their Relevance to Urban Socio-Ecology](https://www.thenatureofcities.com/TNOC/2016/05/28/common-threads-connections-among-the-ideas-of-jane-jacobs-and-elinor-ostrom-and-their-relevance-to-urban-socio-ecology/) — May 2016
-8. [Neighborhoods and Urban Fractals — The Building Blocks of Sustainable Cities](https://www.thenatureofcities.com/2012/10/17/neighborhoods-and-urban-fractals-the-building-blocks-of-sustainable-cities/) — October 2012
+1. [Explaining the Housing Crisis with the Theory of Constraints](https://www.thenatureofcities.com/TNOC/2023/04/11/explaining-the-housing-crisis-with-the-theory-of-constraints/) — April 2023
+2. [A Fractal Solution to Regional Complexity and Governance](https://www.thenatureofcities.com/TNOC/2020/01/23/a-fractal-solution-to-regional-complexity-and-governance/) — January 2020
+3. [Neighborhoods that Change in Non-linear Ways — Urban Planning for Succession](https://www.thenatureofcities.com/TNOC/2019/07/10/neighborhoods-that-change-in-non-linear-ways-urban-planning-for-succession/) — July 2019
+4. [Neural Networks — A New Model for 'The Kind of Problem a City Is'](https://www.thenatureofcities.com/2018/04/29/neural-networks-new-model-kind-problem-city/) — April 2018
+5. [The Effect of Iteration on Urban Form, Part II: Iteration in an Ecosystem](https://www.thenatureofcities.com/2017/06/28/effect-iteration-urban-form-part-ii-iteration-ecosystem/) — June 2017
+6. [The Effect of Iteration on Urban Form, Part I: Fractals and the Creation of Complexity](https://www.thenatureofcities.com/2017/06/25/effect-iteration-urban-form-part/) — June 2017
+7. [Uses and Abuses of Preservation](https://www.thenatureofcities.com/2016/11/13/uses-and-abuses-of-preservation/) — November 2016
+8. [Common Threads: Connections Among the Ideas of Jane Jacobs and Elinor Ostrom, and Their Relevance to Urban Socio-Ecology](https://www.thenatureofcities.com/TNOC/2016/05/28/common-threads-connections-among-the-ideas-of-jane-jacobs-and-elinor-ostrom-and-their-relevance-to-urban-socio-ecology/) — May 2016
+9. [Neighborhoods and Urban Fractals — The Building Blocks of Sustainable Cities](https://www.thenatureofcities.com/2012/10/17/neighborhoods-and-urban-fractals-the-building-blocks-of-sustainable-cities/) — October 2012
 
 Contributed book recommendation (*Delirious New York* by Rem Koolhaas) to the TNOC roundtable ["Read this!"](https://www.thenatureofcities.com/2016/12/14/read-this-from-your-world-view-and-perspective-what-is-the-one-book-about-or-relevant-to-cities-that-everyone-should-read-why/) — December 2016
 
@@ -35,12 +36,12 @@ Since 2007, I have maintained [Emergent Urbanism](http://emergenturbanism.com), 
 ## Education
 
 ### Institut d'Urbanisme de Paris / Université Paris I Panthéon-Sorbonne
-#### Master's — Urban Planning
+#### Master's — Urban Planning | 2008
 
-Thesis: *The Morphology of Emergence — Complexity and Modern Urban Growth*. Examined how emergent phenomena, complex adaptive systems, and fractal geometry explain the structure and growth of traditional and organic urban forms, in contrast to top-down planned cities.
+Examined how emergent phenomena, complex adaptive systems, and fractal geometry explain the structure and growth of traditional and organic urban forms, in contrast to top-down planned cities.
 
 ### Concordia University
-#### B.Sc. — Economics and Computer Science
+#### B.A. — Economics and Computer Science | 2006
 #### Montreal, Canada
 
 Interdisciplinary foundation in formal economics and computation, which informs my approach to urban complexity and agent-based modeling.
@@ -57,4 +58,4 @@ I develop computational tools for modeling emergent city growth, exploring how s
 
 ## Professional Background
 
-By profession I am a senior web developer and technical consultant (Drupal/PHP, JavaScript) with over 15 years of experience, including co-founding a technology company. This technical background directly informs my practice in computational urbanism and agent-based modeling.
+By profession I am a senior web developer, platform architect, and tech lead (currently at Appnovation Technologies) with over fifteen years of experience, including co-founding a technology company. This technical background directly informs my practice in computational urbanism and agent-based modeling.

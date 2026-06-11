@@ -1,70 +1,123 @@
 ---
 layout: layouts/cv.njk
 title: "Mathieu Hélie — Tech & Consulting CV"
-description: "Technology professional with 15+ years in Drupal/PHP, JavaScript, and enterprise web architecture. Based in Montreal."
+description: "Staff web developer and platform architect with 15+ years building enterprise web platforms. Tech lead at Appnovation Technologies on Pfizer engagements. Montreal, Canada."
 variant: tech
 ---
 
-Senior web developer and technical consultant with 15+ years of experience in Drupal architecture, PHP, and JavaScript across enterprise, agency, and startup contexts. I have led development teams, designed platforms from the ground up, and co-founded a technology company.
+Full-stack staff developer and platform architect with over fifteen years of experience across enterprise, agency, and startup contexts. Currently seeking a move into engineering management or a director-level role. I lead teams, designed platforms from the ground up, integrated AI tooling, and shipped at enterprise scale.
 
 ## Experience
 
-### Technology Senior Associate — Appnovation Technologies
-#### Montreal, Canada
+### Senior Associate Technology — Appnovation Technologies
+#### Montreal, Canada (remote) | April 2020 – Present
 
-Appnovation is a global digital consultancy specializing in open technology platforms including Drupal, Acquia, Liferay, and custom web applications. As a Technology Senior Associate, I contribute to solution architecture, backend development, and technical strategy for enterprise clients.
+Five years of successive platform architect and tech lead roles on major Pfizer engagements.
 
-### Senior Drupal Developer & Consultant — Serti
-#### Montreal, Canada
+**Tech Lead — Pfizer Internal Platform · 2025–present**
 
-Delivered Drupal platform development and technical consulting. Contributed to custom module development and platform architecture in a specialized ERP/technology environment.
+Leading a team of 5–8 developers on a new internal workflow automation platform. Integrated AI-powered content generation and summarization using LiteLLM (multi-vendor LLM abstraction). Defined architecture, coding standards, and delivery processes; facilitated Agile ceremonies; mentored developers.
+
+*Vue.js · Laravel · LiteLLM*
+
+**Pfizer Platform Integration Consultant · 2023–2024**
+
+Platform architect for a cancer patient support PWA (replacing website + mobile app). Full-stack developer on PfizerForAll.com: critical platform updates, cloud infrastructure harmonization, analytics integration. Built an asynchronous messaging service for a Japan COVID vaccine administration portal. Evangelized GitHub Copilot across teams.
+
+*Angular · Ionic · Drupal · Laravel · Vue.js · AWS CloudFormation · Adobe Analytics · GitHub Copilot*
+
+**Cloud & Web Application Architect — Pfizer · 2023**
+
+Designed and delivered a serverless AWS portal for a bioinformatics startup acquired by Pfizer. Prototype adopted as reference portal architecture by the client's technology directors.
+
+*Remix · React · TypeScript · PostgreSQL · AWS Lambda · AWS CloudFormation · GitHub Pipelines*
+
+**Platform Architect, Decoupled Web · 2022**
+
+Designed federated search integrations, visitor authentication, and content gating for an offshore team. Consulting on legacy PHP → headless CMS migration. Developed a WYSIWYG widget for a digital signage authoring tool.
+
+*Drupal · Node.js · Docker · GCP · Contentful · Next.js · Vercel · Svelte · SvelteKit · React*
+
+**Tech Lead — Platform Operations · 2021**
+
+Launched a CMS platform into containerized AWS hosting; onboarded production partners. Support lead, production observability specialist, incident triage.
+
+*Drupal · Docker · AWS OpenShift*
+
+**JavaScript Integration Lead · 2020**
+
+Tech lead for UI component library integration into a drag-and-drop enterprise CMS. Developed live preview tooling; integrated real-time features on serverless infrastructure. Production observability lead across pharmaceutical, government, and tourism sectors.
+
+*Drupal · GatsbyJS · GraphQL · React · Firebase · GCP · Storybook · TypeScript*
+
+### Consultant Developer — Self Employed
+#### June 2019 – March 2020
+
+Web application performance consulting. Migrated a wiki to containerized cloud hosting; rebuilt interfaces with modern JavaScript.
+
+*Mediawiki · PHP · Svelte · Platform.sh*
+
+### Senior Drupal Developer Consultant — SERTI (Cogeco Inc.)
+#### Montreal, Canada | February 2018 – May 2019
+
+E-commerce integration APIs, CMS personalization, Cogeco platform migration. Automated testing strategy; quality improvement work reducing incidents and improving throughput.
+
+*Drupal 8 · Symfony · PHP · React · Redux · NightwatchJS · PHPUnit*
+
+### Senior Developer — Appnovation Technologies
+#### Montreal, Canada | December 2016 – February 2018
+
+Tech lead on e-commerce integration for Canadian Red Cross, Carrefour, SWIFT, and Agropur. Led migration of a major e-commerce platform to responsive architecture with API integration.
+
+*Drupal 8 · Symfony · PHP · REST APIs*
+
+### Drupal Technical Lead — Floe Design + Technologies
+#### Montreal, Canada | March 2015 – November 2016
+
+Municipal publishing platforms (Digital.NYC, StartHubBoston); multilingual CMS R&D; open-source contributions; mentoring; technical sales proposals.
+
+*Drupal 7 · Drupal 8 · PHP · ElasticSearch · Panelizer · Composer*
 
 ### Co-Founder & Web Architect — Agence Webdiffusion
-#### Montreal, Canada | 2013
+#### Montreal, Canada | 2013 – 2018
 
-Co-founded and led software development for a webcast technology company. Architected and developed a full Drupal-based platform featuring:
+Co-founded a webcast event production agency. Built a full end-to-end Drupal platform: live event microsites, payments, campaign tools, recurring event support. SAJE entrepreneurial program.
 
-- Live webcast event microsites with rapid theming
-- Integrated payments and registration
-- Campaign management tools
-- Multi-event recurring broadcast support
+*Drupal 7 · Aegir Hosting System · PHP*
 
-Designed and executed the company's marketing and advertising strategy. Participated in the SAJE entrepreneurial bootcamp and sales training program.
+### Lead Web Developer — dbn.ca
+#### Montreal, Canada | 2010 – 2013
 
-### Senior Drupal Developer / Technical Lead — Floe Design + Technologies
-#### Montreal, Canada | 2009
+Marketing sites, live event streaming, e-commerce with phone interfaces.
 
-Full-stack development with Drupal/PHP and JavaScript. Technical lead on multiple high-profile projects:
-
-- **Digital.NYC / StartHubBoston** — Content aggregation and channel platform promoting startup ecosystems for New York City and Boston
-- **Drupal Webcasts** — Enterprise webcast event platform with payments, live interaction, and custom campaign theming
-
-Freelance and solo development alongside agency work since 2009.
+*Drupal 6 · Drupal 7 · PHP · MySQL*
 
 ## Education
 
 ### Concordia University
-#### B.Sc. — Economics and Computer Science
-#### Montreal, Canada
+#### B.A. — Economics and Computer Science | 2006
 
 ### Institut d'Urbanisme de Paris / Université Paris I Panthéon-Sorbonne
-#### Master's — Urban Planning (Complexity Science focus)
+#### Master's — Urban Planning | 2008
+
+### Champlain Regional College
+#### DEC — Computer Science | 2002
 
 ## Technical Skills
 
-**Platforms & Frameworks**
-Drupal 7/8/9/10, PHP, JavaScript, Node.js, custom CMS development, Acquia, open-source platforms
+**Back End**
+TypeScript · Node.js · ExpressJS · Remix · PHP · Symfony · Drupal (6–10) · Laravel · Next.js · REST · GraphQL · AWS (Lambda, CloudFormation, SAM, OpenShift) · GCP (Firebase, Cloud Functions) · PostgreSQL · MySQL · MSSQL · MariaDB · MongoDB · Docker · ElasticSearch · Jenkins · CircleCI · GitHub Pipelines · Linux
 
-**Architecture**
-Web application architecture, API design, custom module development, platform design, microsite systems, multi-tenant platforms
+**Front End**
+TypeScript · React · React Router · Vue.js · Angular · Svelte · SvelteKit · GatsbyJS · Storybook · CSS · SASS · TailwindCSS
 
-**Tools & Practices**
-Git, Composer, Drush, CI/CD, agile development, technical consulting, client engagement
+**AI / LLM**
+LLM API integration · LiteLLM · content generation & summarization · GitHub Copilot
 
-**Other**
-Linux/Unix, MySQL, theming, front-end development, performance optimization
+**Methods**
+Platform architecture · Technical leadership · Agile (Scrum, Kanban) · Mentoring · Code review · Production observability
 
 ## Selected Writing
 
 - [Lean Drupal Development — Finish your Drupal projects in half the time](https://medium.com/@mathieuhelie/lean-drupal-development-finish-your-drupal-projects-in-half-the-time-a98eaaede088) — Medium
-- [SlideShare](https://www.slideshare.net/mhelie)
+- [SlideShare](https://www.slideshare.net/mhelie) — presentations on Drupal and modern web development

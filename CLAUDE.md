@@ -4,18 +4,20 @@ This is the personal site and CV generator for Mathieu Hélie at https://mthl.in
 
 ## What this site is
 
-A static site built with [Eleventy](https://www.11ty.dev/) that serves as the source of truth for professional CVs targeting different audiences. The home page is a full, detailed CV optimized for web search. Variant pages filter and summarize for specific audiences.
+A static site built with [Eleventy](https://www.11ty.dev/) that serves as the source of truth for professional CVs targeting different audiences. The home page is a full, detailed CV optimized for web search. Variant pages filter and summarize for specific audiences. They do not change the language but compact it to a specific format for that audience.
 
 ## Pages
 
 | File | URL | Purpose |
 |---|---|---|
 | `src/index.md` | `/` | Full chronological CV — maximum detail, SEO-optimized |
-| `src/cv-tech.md` | `/cv-tech/` | Tech/consulting focus — Drupal, PHP, JS, architecture |
-| `src/cv-urban.md` | `/cv-urban/` | Urbanism/complexity science focus — TNOC articles, thesis |
-| `src/cv-linkedin.md` | `/cv-linkedin/` | LinkedIn-format profile — About/Experience/Skills/Publications |
+| `src/cv-tech.md` | `/cv-tech/` | Tech/consulting/entrepreneurship focus — Drupal, PHP, JS, architecture |
+| `src/cv-urban.md` | `/cv-urban/` | Urbanism/complexity science focus — TNOC articles, blogs, presentations, consulting |
+| `src/cv-linkedin.md` | *(not published in nav)* | LinkedIn-format summary profile — reference document for updating LinkedIn manually. Nav link goes to linkedin.com/in/mhelie. |
 
-All pages share one layout: `src/_includes/layouts/cv.njk`.
+The three public pages share one layout: `src/_includes/layouts/cv.njk`. The variant nav links to the LinkedIn profile directly (linkedin.com/in/mhelie) — not to the local cv-linkedin.md page.
+
+Variant pages are filtered views of the same master history in `src/index.md`. They use the same voice, language, and first-person perspective — only the content changes, not the tone.
 
 ## Content model
 
@@ -58,7 +60,7 @@ Output goes to `_site/` (gitignored).
 
 ## Deploy
 
-Push to `claude/personal-site-cv-generator-3gToY` branch. GitHub Actions (`.github/workflows/deploy.yml`) builds the site and deploys `_site/` to the `gh-pages` branch, which GitHub Pages serves at https://mthl.info.
+Merge to `gh-pages` branch. GitHub Actions (`.github/workflows/deploy.yml`) triggers on push to `gh-pages`, builds the site, and deploys `_site/` to GitHub Pages at https://mthl.info.
 
 ## Refreshing the site
 
@@ -95,14 +97,15 @@ Use the `/refresh-site` slash command. It reads `content/`, searches for public 
 
 ## Known articles at The Nature of Cities (as of last refresh)
 
-1. A Fractal Solution to Regional Complexity and Governance — Jan 2020
-2. Neighborhoods that Change in Non-linear Ways — Jul 2019
-3. Neural Networks — A New Model for 'The Kind of Problem a City Is' — Apr 2018
-4. The Effect of Iteration on Urban Form, Part II — Jun 2017
-5. The Effect of Iteration on Urban Form, Part I — Jun 2017
-6. Uses and Abuses of Preservation — Nov 2016
-7. Common Threads: Jane Jacobs and Elinor Ostrom — May 2016
-8. Neighborhoods and Urban Fractals — Oct 2012
+1. Explaining the Housing Crisis with the Theory of Constraints — Apr 2023
+2. A Fractal Solution to Regional Complexity and Governance — Jan 2020
+3. Neighborhoods that Change in Non-linear Ways — Jul 2019
+4. Neural Networks — A New Model for 'The Kind of Problem a City Is' — Apr 2018
+5. The Effect of Iteration on Urban Form, Part II — Jun 2017
+6. The Effect of Iteration on Urban Form, Part I — Jun 2017
+7. Uses and Abuses of Preservation — Nov 2016
+8. Common Threads: Jane Jacobs and Elinor Ostrom — May 2016
+9. Neighborhoods and Urban Fractals — Oct 2012
 
 ## Images
 

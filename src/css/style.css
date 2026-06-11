@@ -57,8 +57,8 @@ a:hover {
 }
 
 .portrait {
-  width: 90px;
-  height: 90px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
