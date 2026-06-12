@@ -60,7 +60,7 @@ Output goes to `_site/` (gitignored).
 
 ## Deploy
 
-Merge to `gh-pages` branch. GitHub Actions (`.github/workflows/deploy.yml`) triggers on push to `gh-pages`, builds the site, and deploys `_site/` to GitHub Pages at https://mthl.info.
+Merge to `main` branch. GitHub Actions (`.github/workflows/deploy.yml`) triggers on push to `main`, builds the site, and deploys `_site/` to the `gh-pages` branch, which GitHub Pages serves at https://mthl.info.
 
 ## Refreshing the site
 
