@@ -5,7 +5,7 @@ Refresh the mthl.info personal site by synthesizing all available sources and re
 1. **Read source documents** — Read every file in the `content/` directory. These are the user's primary source of truth: CV documents, work experience notes, project descriptions, client profiles, and anything else dropped there.
 
 2. **Search for new public information** — Run web searches to find updates since the last refresh:
-   - Fetch: `https://www.thenatureofcities.com/TNOC/?s=mathieu+helie` — the most reliable source for new articles
+   - Fetch: `thenatureofcities.com/author/mathieuhelie` — the most reliable source for new articles
    - Search: `"Mathieu Hélie" site:thenatureofcities.com` — cross-check
    - Compare results against the known article list below and note any additions
 
@@ -72,7 +72,6 @@ Refresh the mthl.info personal site by synthesizing all available sources and re
 6. The Effect of Iteration on Urban Form, Part I — Jun 2017 — https://www.thenatureofcities.com/2017/06/25/effect-iteration-urban-form-part/
 7. Uses and Abuses of Preservation — Nov 2016 — https://www.thenatureofcities.com/2016/11/13/uses-and-abuses-of-preservation/
 8. Common Threads: Jane Jacobs and Elinor Ostrom — May 2016 — https://www.thenatureofcities.com/TNOC/2016/05/28/common-threads-connections-among-the-ideas-of-jane-jacobs-and-elinor-ostrom-and-their-relevance-to-urban-socio-ecology/
-9. Neighborhoods and Urban Fractals — Oct 2012 — https://www.thenatureofcities.com/2012/10/17/neighborhoods-and-urban-fractals-the-building-blocks-of-sustainable-cities/
 
 ### Other writing
 

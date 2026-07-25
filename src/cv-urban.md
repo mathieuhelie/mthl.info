@@ -25,7 +25,6 @@ Urban morphology · Fractal geometry in cities · Complex adaptive systems · Em
 6. [The Effect of Iteration on Urban Form, Part I: Fractals and the Creation of Complexity](https://www.thenatureofcities.com/2017/06/25/effect-iteration-urban-form-part/) — June 2017
 7. [Uses and Abuses of Preservation](https://www.thenatureofcities.com/2016/11/13/uses-and-abuses-of-preservation/) — November 2016
 8. [Common Threads: Connections Among the Ideas of Jane Jacobs and Elinor Ostrom, and Their Relevance to Urban Socio-Ecology](https://www.thenatureofcities.com/TNOC/2016/05/28/common-threads-connections-among-the-ideas-of-jane-jacobs-and-elinor-ostrom-and-their-relevance-to-urban-socio-ecology/) — May 2016
-9. [Neighborhoods and Urban Fractals — The Building Blocks of Sustainable Cities](https://www.thenatureofcities.com/2012/10/17/neighborhoods-and-urban-fractals-the-building-blocks-of-sustainable-cities/) — October 2012
 
 Contributed book recommendation (*Delirious New York* by Rem Koolhaas) to the TNOC roundtable ["Read this!"](https://www.thenatureofcities.com/2016/12/14/read-this-from-your-world-view-and-perspective-what-is-the-one-book-about-or-relevant-to-cities-that-everyone-should-read-why/) — December 2016
 

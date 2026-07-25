@@ -105,7 +105,6 @@ Use the `/refresh-site` slash command. It reads `content/`, searches for public 
 6. The Effect of Iteration on Urban Form, Part I — Jun 2017
 7. Uses and Abuses of Preservation — Nov 2016
 8. Common Threads: Jane Jacobs and Elinor Ostrom — May 2016
-9. Neighborhoods and Urban Fractals — Oct 2012
 
 ## Images
 

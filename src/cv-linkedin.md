@@ -103,8 +103,7 @@ TypeScript · Node.js · React · Vue.js · Angular · Svelte · PHP · Drupal �
 5. [The Effect of Iteration on Urban Form, Part I](https://www.thenatureofcities.com/2017/06/25/effect-iteration-urban-form-part/) & [Part II](https://www.thenatureofcities.com/2017/06/28/effect-iteration-urban-form-part-ii-iteration-ecosystem/) — The Nature of Cities, 2017
 6. [Uses and Abuses of Preservation](https://www.thenatureofcities.com/2016/11/13/uses-and-abuses-of-preservation/) — The Nature of Cities, 2016
 7. [Common Threads: Jane Jacobs and Elinor Ostrom](https://www.thenatureofcities.com/TNOC/2016/05/28/common-threads-connections-among-the-ideas-of-jane-jacobs-and-elinor-ostrom-and-their-relevance-to-urban-socio-ecology/) — The Nature of Cities, 2016
-8. [Neighborhoods and Urban Fractals](https://www.thenatureofcities.com/2012/10/17/neighborhoods-and-urban-fractals-the-building-blocks-of-sustainable-cities/) — The Nature of Cities, 2012
-9. [Lean Drupal Development](https://medium.com/@mathieuhelie/lean-drupal-development-finish-your-drupal-projects-in-half-the-time-a98eaaede088) — Medium
+8. [Lean Drupal Development](https://medium.com/@mathieuhelie/lean-drupal-development-finish-your-drupal-projects-in-half-the-time-a98eaaede088) — Medium
 
 ## Links
 
